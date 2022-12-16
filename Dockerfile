@@ -1,3 +1,3 @@
-FROM tomcat:9.0.70-jre8-temurin
+FROM tomcat:8.0.29-jre8
  
 COPY target/java-web-app*.war /usr/local/tomcat/webapps/java-web-app.war
